@@ -1,0 +1,25 @@
+{
+  "name": "gtchats",
+  "version": "1.0.0",
+  "description": "chat ",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/gtchats.git"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.585.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongoose": "^5.2.14",
+    "nodemon": "^1.18.4",
+    "socket.io": "^2.3.0",
+    "ws": "^6.1.2"
+  },
+  "author": "Brian and Sheila",
+  "license": "ISC"
+}
