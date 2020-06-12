@@ -13,7 +13,12 @@ const
   WebSocket = require('ws'),
   { returnResp } = require('./src/Functions')
 mongoose = require('mongoose');
-mongoose.connect('mongodb://gtForceUser:gtForcePassword@127.0.0.1/gt', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://gtForceUser:gtForcePassword@127.0.0.1/gt', { useNewUrlParser: true, useUnifiedTopology: true }, (err, res)=>{
+  if(err)
+   throw err
+   else 
+   console.log('connected')
+});
 // mongoose.connect('mongodb://127.0.0.1/gt', { useNewUrlParser: true, useUnifiedTopology: true });
 //mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://dndlionuser:dndlionpass@cluster0-sc27x.mongodb.net/Sagar?retryWrites=true&w=majority',{ useNewUrlParser: true });
 app.use(cors());
