@@ -18,7 +18,7 @@
     "mongoose": "^5.2.14",
     "nodemon": "^1.18.4",
     "socket.io": "^2.3.0",
-    "ws": "^6.1.2"
+    "ws": "^7.4.6"
   },
   "author": "Brian and Sheila",
   "license": "ISC"
