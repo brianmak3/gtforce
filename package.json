@@ -12,7 +12,7 @@
     "url": "https://git.heroku.com/gtchats.git"
   },
   "dependencies": {
-    "aws-sdk": "^2.585.0",
+    "aws-sdk": "^2.814.0",
     "cors": "^2.8.1",
     "express": "^4.14.0",
     "mongoose": "^5.2.14",
